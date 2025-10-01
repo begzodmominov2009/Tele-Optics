@@ -1,50 +1,122 @@
 @media (max-width:640px) {
-    .search{
+    .search {
         display: none;
     }
 }
 
 @media (max-width:15040px) {
-    .mini-search{
+    .mini-search {
         display: none;
     }
 }
+
 @media (max-width:638px) {
-    .mini-search{
+    .mini-search {
         display: flex;
-        background-color: black;
+        /* background-color: rgba(245, 245, 245, 0.975); */
+        backdrop-filter: blur(10px);
         width: 94vw;
         height: 14vw;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         transform: translateY(-100%);
     }
+
+    .mini_search_input {
+        max-width: 450px;
+        height: 1px;
+        width: 100%;
+        height: 30px;
+        margin-left: 22px;
+    }
 }
+
 @media (max-width:490px) {
-    .mini-search{
+    .mini-search {
         width: 92vw;
         height: 17vw;
     }
 }
+
 @media (max-width:440px) {
-    .mini-search{
+    .mini-search {
         height: 19vw;
     }
 }
+
 @media (max-width:400px) {
-    .mini-search{
+    .mini-search {
         width: 90vw;
         height: 22vw;
     }
 }
+
 @media (max-width:638px) {
-    .close{
+    .close {
         position: absolute;
         left: 15px;
     }
 }
 
-.mini_search_hide{
+@media (max-width:585px) {
+    .mini_search_input {
+        max-width: 420px;
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:550px) {
+    .mini_search_input {
+        max-width: 400px;
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:520px) {
+    .mini_search_input {
+        max-width: 370px;
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:490px) {
+    .mini_search_input {
+        max-width: 340px;
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:462px) {
+    .mini_search_input {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+@media (max-width:423px) {
+    .mini_search_input{
+        max-width: 270px;
+        width: 100%;
+        margin-left: 25px;
+    }
+}
+@media (max-width:395px) {
+    .mini_search_input{
+        max-width: 240px;
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+.mini_search_hide {
     transform: translateY(0%);
     transition: 0.2s;
+}
+
+.close-durition {
+    transition: 0.3s;
 }

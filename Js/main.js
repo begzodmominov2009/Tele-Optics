@@ -9,4 +9,8 @@ Search.addEventListener("click" , () => {
 
 close.addEventListener("click" , () => {
     mini_search.classList.remove("mini_search_hide")
+    mini_search.classList.add("close-durition")
 })
+window.addEventListener("scroll" , () => {
+    mini_search.classList.remove("mini_search_hide")
+} )
