@@ -19,7 +19,7 @@
         height: 23vw;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-        transform: translateY(-100%);
+        transform: translateY(-500%);
     }
     .close-x{
         bottom: 47px;
