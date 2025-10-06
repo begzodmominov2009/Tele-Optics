@@ -13,8 +13,7 @@ close.addEventListener("click", () => {
 })
 window.addEventListener("scroll", () => {
     mini_search.classList.remove("mini_search_hide")
-    mini_search.classList.add("close-durition")
-
+    mini_search.classList.add("window-durition")
 })
 
 

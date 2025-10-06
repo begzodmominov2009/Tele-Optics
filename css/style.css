@@ -130,4 +130,7 @@
 .close-durition {
     transition: 0.3s;
 }
+.window-durition{
+    transition: 0.8s
+}
 
